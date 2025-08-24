@@ -21,3 +21,8 @@ Dokumentasi pengalaman belajar ASAH 2025
 - Belajar kelas matrikulasi kedua hingga 100%
 - Mendapatkan sertifikat kelas Pengenalan ke Logika Pemrograman (kelas matrikulasi kedua)
 - Belajar kelas matrikulasi ketiga sebanyak 18%
+
+**24 Agustus 2025**  
+- Belajar kelas matrikulasi ketiga hingga 51%
+
+***to be continued...***
