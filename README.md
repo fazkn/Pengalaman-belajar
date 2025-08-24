@@ -23,6 +23,7 @@ Studi kasus pengalaman belajar
 - Belajar kelas matrikulasi ketiga sebanyak 18%
 
 **24 Agustus 2025**  
-- Belajar kelas matrikulasi ketiga hingga 57%
+- Belajar kelas matrikulasi ketiga hingga 100%
+- Mendapatkan sertifikat kelas Belajar Dasar Git dengan GitHub (kelas matrikulasi ketiga) 
 
 ***to be continued...***
