@@ -23,6 +23,6 @@ Dokumentasi pengalaman belajar ASAH 2025
 - Belajar kelas matrikulasi ketiga sebanyak 18%
 
 **24 Agustus 2025**  
-- Belajar kelas matrikulasi ketiga hingga 51%
+- Belajar kelas matrikulasi ketiga hingga 58%
 
 ***to be continued...***
