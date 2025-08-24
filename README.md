@@ -17,5 +17,7 @@ Studi kasus pengalaman belajar
   
 **23 Agustus 2025**  
 - Belajar kelas matrikulasi pertama hingga 100%
+- Mendapatkan sertifikat kelas Memulai Dasar Pemrograman untuk Menjadi Pengembang Software (kelas matrikulasi pertama)
 - Belajar kelas matrikulasi kedua hingga 100%
+- Mendapatkan sertifikat kelas Pengenalan ke Logika Pemrograman (kelas matrikulasi kedua)
 - Belajar kelas matrikulasi ketiga sebanyak 18%
