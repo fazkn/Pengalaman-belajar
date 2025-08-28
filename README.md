@@ -26,4 +26,11 @@ Studi kasus pengalaman belajar
 - Belajar kelas matrikulasi ketiga hingga 100%
 - Mendapatkan sertifikat kelas Belajar Dasar Git dengan GitHub (kelas matrikulasi ketiga) 
 
+**25 Agustus 2025**
+- Mengikuti ILT pertama, Personal Productivity: How to Boost Your Output
+
+**27 Agustus 2025**
+- Belajar kelas Dasar Pemrograman Web hingga 18%
+
+
 ***to be continued...***
