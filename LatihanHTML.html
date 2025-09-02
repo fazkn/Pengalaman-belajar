@@ -2,6 +2,8 @@
 <html>
    <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Faza">
       <title>Pengenalan HTML</title>
 
       <link rel="stylesheet" href="assets/styles/style.css">
@@ -12,12 +14,10 @@
 
    <body>
       <header>
-         <h1 align=center>Bandung</h1>
-         <figure align=center>
-            <img src="assets/images/Bandung_coa.png" height=250px>
-            <figcaption>Foto Kota Bandung</figcaption>
-         </figure>
-         <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi Ibu Kota dari Provinsi tersebut.</p>
+         <div class="jumbotron">
+            <h1>Bandung</h1>
+            <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi Ibu Kota dari Provinsi tersebut.</p>
+         </div>
          <nav>
             <ul>
                <li><a href=#sejarah>Sejarah</a></li>
@@ -28,67 +28,79 @@
       </header>
 
       <main>
-         <div>
-         <h2 id="sejarah">Sejarah</h2>
-         <p align=justify>Kota Bandung berasal dari kata bendung atau bendungan karena
-         terbendungnya sungai Citarum oleh lava Gunung Tangkuban Perahu yang lalu membentuk
-         telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa 
-         nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang 
-         diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, 
-         R.A.Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan 
-         Kabupaten yang baru untuk menggantikan ibu kota yang lama  di Dayeuhkolot.<br>
-         Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an 
-         Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran 
-         Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu 
-         yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda 
-         mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga Ibu 
-         Pertiwi sebagai tempat Banda berada.</p>
+         <div id="content">
+            <article id="sejarah" class="card">
+               <h2>Sejarah</h2>
+               <img src="assets/images/history.jpeg" class="featured-image" alt="Gambar Sejarah Kota Bandung. Dari Kompaspedia">
+               <p align=justify>Kota Bandung berasal dari kata bendung atau bendungan karena
+               terbendungnya sungai Citarum oleh lava Gunung Tangkuban Perahu yang lalu membentuk
+               telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa 
+               nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang 
+               diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, 
+               R.A.Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan 
+               Kabupaten yang baru untuk menggantikan ibu kota yang lama  di Dayeuhkolot.<br>
+               Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an 
+               Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran 
+               Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu 
+               yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda 
+               mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga Ibu 
+               Pertiwi sebagai tempat Banda berada.</p>
+            </article>
 
-         <h2 id="geografis">Geografis</h2>
-         <p align=justify>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi 
-         wilayahnya menyerupai sebuah mangkok raksasa, secara geografis kota ini terletak di 
-         tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768m di atas permukaan 
-         air laut, dengan titik tertinggi berada di sebelah utara dengan ketinggian 1.050 meter 
-         di atas permukaan air laut dan di sebelah selatan merupakan kawasan rendah dengan ketinggian 
-         675 meter di atas permukaan laut.<br>
-         Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum 
-         beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu 
-         di Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap 
-         masalah banjir terutama pada musim hujan.</p>
+            <article id="geografis" class="card">
+               <h2 id="geografis">Geografis</h2>
+               <img src="assets/images/geografis.jpg" class="featured-image" alt="Gambar Geografis Kota Bandung. Dari PPDB Kota Bandung">
+               <p align=justify>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi 
+               wilayahnya menyerupai sebuah mangkok raksasa, secara geografis kota ini terletak di 
+               tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768m di atas permukaan 
+               air laut, dengan titik tertinggi berada di sebelah utara dengan ketinggian 1.050 meter 
+               di atas permukaan air laut dan di sebelah selatan merupakan kawasan rendah dengan ketinggian 
+               675 meter di atas permukaan laut.<br>
+               Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum 
+               beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu 
+               di Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap 
+               masalah banjir terutama pada musim hujan.</p>
+            </article>
+
+            <article id="wisata" class="card">
+               <h2 id="wisata">Wisata</h2>
+               <img src="assets/images/wisata.jpeg" class="featured-image" alt="Gambar Wisata Kota Bandung. Dari TwoSpaces.id">
+               <p align=justify>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan 
+               utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta 
+               sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah 
+               besar bangunan lama berarsitektur peninggalan Belanda.</p>
+   
+               <h3>Farm House Lembang</h3>
+               <img src="assets/images/farmhouse.png" class="featured-image" alt="Gambar Farm House Lembang. Dari Ciwidey Outbound">
+               <p align=justify>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata 
+               yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga 
+               menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto 
+               Instagramable.</p>
       
-         <h2 id="wisata">Wisata</h2>
-         <p align=justify>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan 
-         utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta 
-         sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah 
-         besar bangunan lama berarsitektur peninggalan Belanda.</p>
-      
-         <h3>Farm House Lembang</h3>
-         <p align=justify>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata 
-         yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga 
-         menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto 
-         Instagramable.</p>
-      
-         <h3>Observatorium Bosscha</h3>
-         <p align=justify>Memiliki beberapa teleskop, antara lain Refraktor Ganda Zeiss, Schmidt 
-         Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss 
-         adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap 
-         kubah sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha
-         boleh dikunjungi oleh siapa pun, tanpa tiket. Namun bagi yang ingin menggunakan Teleskop
-         Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal 
-         Selasa sampai Jum'at. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.</p>
+               <h3>Observatorium Bosscha</h3>
+               <img src="assets/images/bosscha.png" class="featured-image" alt="Gambar Observatorium Bosscha. Dari Bosscha ITB">
+               <p align=justify>Memiliki beberapa teleskop, antara lain Refraktor Ganda Zeiss, Schmidt 
+               Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss 
+               adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap 
+               kubah sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha
+               boleh dikunjungi oleh siapa pun, tanpa tiket. Namun bagi yang ingin menggunakan Teleskop
+               Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal 
+               Selasa sampai Jum'at. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.</p>
+            </article>
 
-         <img src="assets/images/aespaDrtwrk.jpeg" height=375px align=center>
-         </div>
+               <img src="assets/images/aespaDrtwrk.jpeg" class="card featured-image" alt="Gambar aespa di DWTWRK">
+               </div>
 
-         <aside align="center">
-            <h2>Kota Bandung</h2>
-            <p>Kota Kembang Paris van Java</p>
-               <figure>
-                  <img src="assets/images/Bandung_coa.png" />
-                  <figcaption>Lambang</figcaption>
-               </figure>
-
-            <article class="profile">
+         <aside>
+            <article class="card">
+               <header>
+                  <h2>Kota Bandung</h2>
+                     <p>Kota Kembang Paris van Java</p>
+                        <figure>
+                           <img src="assets/images/Bandung_coa.png" />
+                           <figcaption>Lambang</figcaption>
+                        </figure>
+               </header>
                <section>
                   <h3>Informasi Lainnya</h3>
  
@@ -119,7 +131,7 @@
          </aside>
       </main>
 
-         <footer align=center>
+         <footer>
             &copy; 2025 Faza
             &copy; 2019 Dicoding Academy
          </footer>
